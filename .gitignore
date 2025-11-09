@@ -1,0 +1,41 @@
+# 빌드 산출물
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+pubg-simulator
+simulator
+
+# 테스트 파일
+*.test
+*.out
+
+# Go workspace
+/vendor/
+/Godeps/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 로그
+*.log
+logs/
+
+# 임시 파일
+tmp/
+temp/
+*.tmp
+
+# 환경 설정
+.env
+.env.local
